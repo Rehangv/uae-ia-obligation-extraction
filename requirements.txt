@@ -1,0 +1,42 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# UAE IA Regulation — Obligation Extraction & Gap Analysis System
+# Requirements
+#
+# Install all dependencies with:
+#     pip install -r requirements.txt
+#
+# Python version required: 3.10+
+#
+# NOTE: tabula-py requires Java 8+ installed separately on your system.
+#       Download Java from: https://www.java.com/en/download/
+#       Verify with: java -version
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── PDF Parsing ───────────────────────────────────────────────────────────────
+PyMuPDF==1.24.0              # fitz  — reads PDF pages, detects font sizes, finds table bounding boxes
+PyPDF2==3.0.1                # reads footer text to build display page number map
+tabula-py==2.9.0             # extracts tables from PDF pages into structured JSON
+
+# ── AI / LLM ─────────────────────────────────────────────────────────────────
+langchain-google-genai==1.0.7   # Gemini 2.5 Flash Lite — obligation extraction and gap analysis
+langchain==0.2.6                # PromptTemplate used in obligation prompts
+
+# ── Data Processing ───────────────────────────────────────────────────────────
+pandas==2.2.2                # DataFrames, Excel read/write, column operations
+openpyxl==3.1.2              # Excel styling — headers, row colours, borders, freeze panes
+
+# ── String Matching ───────────────────────────────────────────────────────────
+fuzzywuzzy==0.18.0           # fuzzy string matching in obligation post-processing
+python-Levenshtein==0.25.1   # speeds up fuzzywuzzy (strongly recommended)
+
+# ── Async / Networking ────────────────────────────────────────────────────────
+aiohttp==3.9.5               # async HTTP used in LLM retry logic
+requests==2.31.0             # HTTP requests
+websockets==12.0             # WebSocket support (legacy path, still imported)
+asgiref==3.8.1               # sync_to_async utility
+
+# ── Progress Bar ─────────────────────────────────────────────────────────────
+tqdm==4.66.4                 # progress bar during gap analysis processing
+
+# ── Standard Library (no install needed) ─────────────────────────────────────
+# os, re, json, sys, time, asyncio, base64, argparse, csv, difflib, typing

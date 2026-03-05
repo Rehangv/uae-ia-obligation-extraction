@@ -1,0 +1,128 @@
+[
+    {
+        "page": 7,
+        "table_index": 0,
+        "columns": [
+            "Unnamed: 0",
+            "IA Regulation",
+            "Unnamed: 1",
+            "Unnamed: 2"
+        ],
+        "rows": [
+            [
+                "Area",
+                "",
+                "",
+                "How Semperis can help"
+            ],
+            [
+                "",
+                "controls",
+                "",
+                ""
+            ],
+            [
+                "Risk management",
+                "\u2022 M2.2.2",
+                "\u2022",
+                "Evaluate and communicate overall security posture with risk"
+            ],
+            [
+                "and compliance",
+                "\u2022 M2.4.1",
+                "",
+                "scoring, enabling drill-down into individual security categories"
+            ],
+            [
+                "",
+                "",
+                "",
+                "for deeper analysis"
+            ],
+            [
+                "",
+                "\u2022 M5.3.1",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "\u2022",
+                "Provide guidance for addressing security exposures at the"
+            ],
+            [
+                "",
+                "",
+                "",
+                "strategic, operational, and tactical levels"
+            ],
+            [
+                "",
+                "",
+                "\u2022",
+                "Establish incident response and recovery planning and testing"
+            ],
+            [
+                "",
+                "",
+                "\u2022",
+                "Provide continuous threat and vulnerability detection"
+            ],
+            [
+                "Indicators of",
+                "\u2022 T3.2.1",
+                "\u2022",
+                "Monitor AD and Entra ID as a core dependency to all IT systems"
+            ],
+            [
+                "exposure",
+                "\u2022 T3.2.5",
+                "\u2022",
+                "Continuously monitor for indicators of exposure and compromise"
+            ],
+            [
+                "",
+                "\u2022 T7.7",
+                "",
+                "in AD and Entra ID using multiple data sources, including the AD"
+            ],
+            [
+                "",
+                "",
+                "",
+                "replication stream"
+            ],
+            [
+                "",
+                "\u2022 T8.3",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "\u2022",
+                "Discover attack paths to Tier 0 assets and help identify excessive"
+            ],
+            [
+                "",
+                "",
+                "",
+                "privileges that attackers can exploit"
+            ],
+            [
+                "Change control",
+                "\u2022 T3.2.3",
+                "\u2022",
+                "Provide comprehensive change tracking to identify identity"
+            ],
+            [
+                "",
+                "\u2022 T7.6.1",
+                "",
+                "system changes even with security logging turned off, if logs are"
+            ]
+        ]
+    }
+]
