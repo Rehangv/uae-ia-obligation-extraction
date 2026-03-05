@@ -109,8 +109,8 @@ def obligations_identical(t1: str, t2: str) -> bool:
 
 GAP_API_KEYS = [
     "", 
-    "",  # key 2 
-    "",  # key 3
+    "",   
+    "",  
 ]
 GAP_API_KEYS = [k for k in GAP_API_KEYS if k.strip()]
 
@@ -480,9 +480,9 @@ if __name__ == "__main__":
 
     GAP_API_KEYS.clear()
     GAP_API_KEYS.extend([    
-        "AIzaSyA9dL96Gq5UN85AlBqKwFewyz1OvCn7RRY",
-        "AIzaSyAI8sEYix7YadfmqvxJTb0hYCWcLwZm7Dc",
-        "AIzaSyBwhUU82EAWQUqKMC7QGfmc6VEsKozMDPM"   
+        "",
+        "",
+        ""   
     ])
 
     EXCEL1_PATH = r"output\UAE IA Regulation v11\UAE IA Regulation v11.xlsx"
